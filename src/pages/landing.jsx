@@ -55,7 +55,7 @@ const LandingPage = () => {
 
       
       {/* banner */}
-      <img src="/banner.jpeg" alt="" srcset="" className='w-full'/>
+      <img src="/banner.jpeg" alt=""  className='w-full'/>
          <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Card>
           <CardHeader>
