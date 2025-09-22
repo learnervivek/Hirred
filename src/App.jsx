@@ -51,7 +51,7 @@ const router = createBrowserRouter([
             <SaveJobs />  </ProtectedRoute>),
       },
       {
-        path: '//job/:id',
+        path: '/job/:id',
         element:
           (<ProtectedRoute>
             <JobPage /></ProtectedRoute>),
