@@ -10,7 +10,7 @@ function AppLayout() {
         <Header/>
         <Outlet/>
       </main>
-      <h3 className="text-center text-lg font-semibold">Built with ♥ by Vivek Gupta</h3>
+      <h3 className="text-center text-lg font-semibold">Built With ♥ by Vivek Gupta</h3>
     </div>
   );
 };
