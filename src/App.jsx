@@ -3,8 +3,8 @@ import './App.css'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import AppLayout from "./layout/app-layout";
 import LandingPage from "./pages/landing";
-import Onboarding from "./pages/onboarding";
-import JobListing from "./pages/joblisting";
+// import Onboarding from "./pages/onboarding";
+// import JobListing from "./pages/joblisting";
 import JobPage from "./pages/job";
 import MyJobs from "./pages/my-job";
 import PostJob from "./pages/post-job";
@@ -20,18 +20,18 @@ const router = createBrowserRouter([
         path: '/',
         element: <LandingPage />,
       },
-      {
-        path: '/Onboarding',
-        element: (<ProtectedRoute>
-        <Onboarding /></ProtectedRoute>),
-      },
-      {
-        path: '/jobs',
-        element: (<ProtectedRoute>
-          <JobListing />
-        </ProtectedRoute>
-        ),
-      },
+      // {
+      //   path: '/Onboarding',
+      //   element: (<ProtectedRoute>
+      //   <Onboarding /></ProtectedRoute>),
+      // },
+      // {
+      //   path: '/jobs',
+      //   element: (<ProtectedRoute>
+      //     <JobListing />
+      //   </ProtectedRoute>
+      //   ),
+      // },
 
       {
         path: '/post-job',
